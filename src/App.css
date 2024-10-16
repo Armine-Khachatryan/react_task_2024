@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Tajawal_Regular;
+  src: url('/assets/fonts/Tajawal/Tajawal_Regular.ttf');
+}
+@font-face {
+  font-family: Tajawal_Bold;
+  src: url('/assets/fonts/Tajawal/Tajawal_Bold.ttf');
+}
+
+@font-face {
+font-family: Tajawal_Medium;
+  src: url('/assets/fonts/Tajawal/Tajawal_Medium.ttf');
+}
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: Tajawal_Regular,sans-serif !important;
+}
+.tradingImg{
+  cursor: pointer;
+}
+.title {
+  font-size: 24px;
+  margin: 20px 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.swiper {
+  z-index: 100000;
+  background-color: black;
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  position: unset !important;
+}
+.tradingImg{
+   cursor: pointer;
+}
